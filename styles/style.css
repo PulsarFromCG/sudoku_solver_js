@@ -1,0 +1,42 @@
+#title_section{
+    text-align: center;
+}
+
+#sudoku_table{
+    width: 360px;
+    height: 360px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.cell{
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    border: 1px solid black;
+}
+
+.cell_text_area{
+    border: none;
+    resize: none;
+    outline: none;
+
+    width: 80%;
+    height: 80%;
+
+    text-align: center;        /* horizontal */
+    font-size: 1.5rem;
+    resize: none;
+}
+
+#button_section{
+    margin-top: 5%;
+    text-align: center;
+}

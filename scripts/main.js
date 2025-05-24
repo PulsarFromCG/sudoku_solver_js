@@ -1,0 +1,3 @@
+buildSudokuTable();
+cellAreaConfig();
+solvingSudoku();
